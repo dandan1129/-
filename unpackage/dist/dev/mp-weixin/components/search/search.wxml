@@ -1,0 +1,1 @@
+<view class="search_box"><view class="iconfont icon-shouyesousuotubiao"></view><input type="text" name="search" placeholder-class="placeholder" placeholder="点击搜索景点、攻略、酒店、美食"/></view>

@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#025392",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "home": "/pages/home/index"
+  }
+}

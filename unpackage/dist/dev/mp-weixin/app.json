@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "list/index",
+        "detail/detail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "自由行用智游行",
+    "navigationBarShadow": {
+      "colorType": "blue"
+    },
+    "enablePullDownRefresh": false,
+    "backgroundColorTop": "",
+    "backgroundColorBottom": ""
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置信息"
+    }
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "usingComponents": {
+    "skeleton": "/components/easy-skeleton/easy-skeleton",
+    "ppt": "/components/ppt/ppt",
+    "mescroll": "/components/mescroll-uni/mescroll-uni",
+    "lazy-img": "/components/lazyImg/lazyImg",
+    "star": "/components/star"
+  }
+}

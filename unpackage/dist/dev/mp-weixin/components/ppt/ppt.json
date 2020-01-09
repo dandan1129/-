@@ -1,0 +1,9 @@
+{
+  "componentGenerics": {
+    "scoped-slots-bottom": true
+  },
+  "component": true,
+  "usingComponents": {
+    "lazy-img": "/components/lazyImg/lazyImg"
+  }
+}

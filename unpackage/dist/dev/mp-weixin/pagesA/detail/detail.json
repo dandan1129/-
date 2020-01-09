@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "ppt": "/components/ppt/ppt",
+    "star": "/components/star",
+    "comment": "/components/comment"
+  }
+}
