@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "景区实景",
+  "usingComponents": {
+    "lazy-img": "/components/lazyImg/lazyImg"
+  }
+}

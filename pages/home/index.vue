@@ -4,6 +4,7 @@
 		<skeleton v-if="showSkeleton" ref="skeleton" />
 
 		<view class="top">
+			<tabHead title="自由行用智游行"></tabHead>
 			<!-- 搜索 -->
 			<Search class="skeleton-rect" />
 			<!-- 轮播图 -->
@@ -58,6 +59,7 @@
 </template>
 
 <script>
+	import tabHead from "@/components/tabhead.vue";
 	import Search from '@/components/search/search'
 	import Ppt from '@/components/ppt/ppt'
 	import lazyImg from '@/components/lazyImg/lazyImg.vue'
@@ -70,7 +72,8 @@
 			Search,
 			Ppt,
 			skeleton,
-			lazyImg
+			lazyImg,
+			tabHead
 		},
 		data() {
 			return {
@@ -165,6 +168,7 @@
 		width: 100%;
 
 		.top {
+			padding-top:180rpx;
 			height: 250rpx;
 			background: linear-gradient(0deg, rgba(2, 83, 146, 1) 0%, rgba(0, 74, 132, 1) 100%);
 		}

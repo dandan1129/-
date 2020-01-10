@@ -1,1 +1,0 @@
-<view class="ppt_title">{{prop.title}}</view><view class="ppt_des">{{prop.category_name}}</view>

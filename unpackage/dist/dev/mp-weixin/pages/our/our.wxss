@@ -1,0 +1,67 @@
+
+.container {
+	width: 100%;
+}
+.user {
+	background: #FFF;
+	border: none;
+	color: #000;
+	line-height: 44rpx;
+	padding: 240rpx 104rpx 0;
+	margin-bottom: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+button.user::after {
+	border: none;
+}
+button view.user_login_register {
+	text-align: left;
+	font-size: 40rpx;
+	font-weight: bold;
+}
+.user_login_register view {
+	margin-bottom: 10rpx;
+}
+.user_login_register text {
+	font-size: 26rpx;
+	color: rgb(147, 153, 169);
+	font-weight: 500;
+}
+button image {
+	width: 116rpx;
+	height: 116rpx;
+	border-radius: 50%;
+	background: #E5E5EB
+}
+.user_operation {
+	margin-top: 30rpx;
+}
+.user_operation>view {
+	padding: 30rpx 0 30rpx 30rpx;
+	margin: 0 48rpx;
+	font-size: 30rpx;
+	position: relative;
+	border-bottom: 2rpx #f9f9f9 solid;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.user_operation .iconfont {
+	font-size: 30rpx;
+	margin-right: 40rpx;
+	color: #000;
+	font-weight: bold;
+}
+.headerTitle{color:#000!important;}
+

@@ -1,6 +1,8 @@
 <template>
 	<view class="switchWrapper">
 			<Home v-if="path=='home'"/>
+			<our v-if="path=='our'"/>
+			<travelAssistant v-if="path=='travelAssistant'"/>
 			<view class="bottomNav">
 				<view :class="item.active?'active':''" v-for="(item,index) in navList" :key="index" @click="routerTap(item)">
 					<view :class="'iconfont navIcon '+item.icon"></view>
@@ -15,9 +17,13 @@
 <script>
 	// vueX
 	import Home from '@/pages/home/index.vue'
+	import our from '@/pages/our/our.vue'
+	import travelAssistant from '@/pages/travelAssistant/travelAssistant.vue'
 	export default {
 		components:{
 			Home,
+			our,
+			travelAssistant
 		},
 		data() {
 			return {
@@ -34,13 +40,13 @@
 					active: false
 				}, {
 					title: '助手',
-					path: 'helper',
+					path: 'travelAssistant',
 					icon: 'icon-dibu-zhushou',
 					active: false
 				}, {
 					title: '我的',
-					path: 'my',
-					icon: 'icon-wode-touxiangren',
+					path: 'our',
+					icon: 'icon-dibu-wode',
 					active: false
 				}, ]
 			}

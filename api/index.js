@@ -35,5 +35,20 @@ export const getStar = (ids) => {
     })
 }
 
-
+// 景区实景
+export const scene = (data) => {
+    return http.request({
+        url: 'tongcheng/v2/findNews',
+        method: 'GET', 
+        data
+    })
+}
+// 浏览量
+export const see = (data) => {
+    return http.request({
+        url: 'weChat/news/getList',
+        method: 'GET', 
+        data
+    })
+}
 

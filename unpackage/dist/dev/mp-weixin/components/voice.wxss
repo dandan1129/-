@@ -1,0 +1,40 @@
+
+.voice {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 50rpx 30rpx 0;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 28rpx;
+}
+.voiceBg {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.voice>view {
+	padding: 10rpx 40rpx;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 10px 5px;
+	border-radius: 40rpx;
+}
+.language {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	color: #999
+}
+.language>view {
+	margin-right: 16rpx;
+}
+.language>view:nth-child(3) {
+	margin-right: 0;
+}
+.isActive {
+	color: #000
+}
+

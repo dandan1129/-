@@ -3,7 +3,8 @@
     "search": "/components/search/search",
     "ppt": "/components/ppt/ppt",
     "skeleton": "/components/easy-skeleton/easy-skeleton",
-    "lazy-img": "/components/lazyImg/lazyImg"
+    "lazy-img": "/components/lazyImg/lazyImg",
+    "tab-head": "/components/tabhead"
   },
   "component": true
 }

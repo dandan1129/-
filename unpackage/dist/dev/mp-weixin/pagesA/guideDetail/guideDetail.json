@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "导游详情",
+  "usingComponents": {
+    "voice": "/components/voice",
+    "uni-badge": "/components/gaoyia-parse/parse"
+  }
+}

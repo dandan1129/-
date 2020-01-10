@@ -3,9 +3,10 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"enablePullDownRefresh": true,
+				// "enablePullDownRefresh": true,
 				"navigationBarBackgroundColor": "#025392",
-				"navigationBarTextStyle": "white"
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
 			}
 		},
 		{
@@ -26,8 +27,57 @@
 			}
 		},
 		{
-		    "path" : "detail/detail",
+		    "path" : "guideDetail/guideDetail",
+		    "style" : {
+				"navigationBarTitleText": "导游详情"
+			}
+		},
+		{
+		    "path" : "guide/guide",
+		    "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+		    "path" : "scene/scene",
+		    "style" : {
+				"navigationBarTitleText": "景区实景"
+			}
+		},
+		{
+		    "path" : "sceneDetail/sceneDetail",
+		    "style" : {
+				"navigationBarTitleText": "景区实景"
+			}
+		},
+		{
+		    "path" : "customer/customer",
 		    "style" : {}
+		},
+		{
+		    "path" : "detail/detail",
+		    "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+		    "path" : "complain/complain",
+		    "style" : {
+				"navigationBarTitleText": "旅游投诉"
+			}
+		},
+		{
+		    "path" : "guideList/guideList",
+		    "style" : {
+				"navigationBarTitleText": "导游查询结果"
+			}
+		},
+		{
+		    "path" : "webView/webView",
+		    "style" : {
+			}
 		}]
 	}],
 	"globalStyle": {

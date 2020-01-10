@@ -1,4 +1,6 @@
 {
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
   "usingComponents": {
     "ppt": "/components/ppt/ppt",
     "star": "/components/star",

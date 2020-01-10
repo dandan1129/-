@@ -1,0 +1,1 @@
+<view class="headerTitle" style="{{'top:'+(tabHeight+'px')+';'+('line-height:'+(lineHight+'px')+';')+('color:'+(color)+';')}}">{{''+title}}</view>

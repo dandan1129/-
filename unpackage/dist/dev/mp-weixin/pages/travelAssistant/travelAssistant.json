@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tab-head": "/components/tabhead",
+    "lazy-img": "/components/lazyImg/lazyImg"
+  },
+  "component": true
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "导游查询结果",
+  "usingComponents": {
+    "lazy-img": "/components/lazyImg/lazyImg"
+  }
+}

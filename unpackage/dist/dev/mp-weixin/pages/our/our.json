@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tab-head": "/components/tabhead"
+  },
+  "component": true
+}

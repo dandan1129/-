@@ -28,6 +28,7 @@
   width: 100%;
 }
 .home .top {
+    padding-top: 180rpx;
     height: 250rpx;
     background: -webkit-linear-gradient(bottom, #025392 0%, #004a84 100%);
     background: linear-gradient(0deg, #025392 0%, #004a84 100%);

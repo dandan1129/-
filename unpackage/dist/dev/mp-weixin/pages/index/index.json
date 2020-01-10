@@ -1,8 +1,10 @@
 {
-  "enablePullDownRefresh": true,
   "navigationBarBackgroundColor": "#025392",
   "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
   "usingComponents": {
-    "home": "/pages/home/index"
+    "home": "/pages/home/index",
+    "our": "/pages/our/our",
+    "travel-assistant": "/pages/travelAssistant/travelAssistant"
   }
 }

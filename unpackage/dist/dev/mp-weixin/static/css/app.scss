@@ -26,7 +26,7 @@ body,
 	/* 卡片 */
 	.card{
 		width:654rpx;
-		height:654rpx;
+		padding-bottom: 30rpx;
 		background:rgba(255,255,255,1);
 		border-radius:$uni-border-radius;
 		overflow: hidden;
@@ -47,6 +47,16 @@ body,
 				border-radius:22rpx;
 				padding:10rpx 24rpx;
 			}
+			// 新加的
+			.living {
+				position: absolute;
+				top: 42rpx;
+				right: 36rpx;
+				color: #FFF;
+				background: #025392;
+				border-radius: 22rpx;
+				padding: 10rpx 24rpx;
+			}
 		}
 		.card_dec_wrapper{
 			position:relative;
@@ -60,6 +70,8 @@ body,
 				font-weight:700;
 				margin-bottom:22rpx;
 				color: #333333;
+				// 新加的
+				line-height: 1.3;
 			}
 			.des{
 				font-size:1em;
@@ -95,4 +107,19 @@ body,
 		font-size: 36rpx;
 		font-weight: 700;
 		margin: 80rpx 0 40rpx 0;
+	}
+	// 新加
+	.headerTitle {
+		position: absolute;
+		top: 0rpx;
+		top: var(--status-bar-height);
+		line-height: var(--status-bar-height);
+		left: 30px;
+		z-index: 2;
+		font-size: 30rpx;
+		z-index: 222;
+	}
+	
+	.wrap {
+		margin: 0 48rpx;
 	}

@@ -1,0 +1,121 @@
+
+.pages {
+		position: relative;
+}
+.banner {
+		height: 530rpx;
+		width: 100%;
+		position: relative;
+}
+.banner swiper{height: 530rpx;}
+
+
+	/* 指示点 */
+.indicator-dots {
+		
+		position: absolute;
+		bottom: 90rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		width:100%;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.indicator-dots view {
+		background: #FFF;
+		width: 10rpx;
+		height: 10rpx;
+		border-radius: 10rpx;
+		margin-left:10rpx;
+}
+.indicator-dots view.color {
+		background: #025392;
+}
+.banner swiper-item {
+		position: relative
+}
+.banner swiper-item image {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		height: 530rpx
+}
+
+
+	/* 天气 */
+.weatherMes {
+		position: absolute;
+		top: 160rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		width: 100%;
+		color: #fff;
+		font-size: 30rpx;
+}
+.currentTemp {
+		font-size: 60rpx;
+}
+.position {
+		margin-top: 30rpx;
+		position: relative;
+}
+
+
+	/* 列表 */
+.wrap {
+		margin: -40rpx 48rpx 0;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		box-sizing: border-box;
+		z-index: 222;
+		position: relative;
+		-webkit-flex-wrap:wrap;
+		        flex-wrap:wrap;
+}
+.boxWrap {
+		width: 290rpx;
+		height: 214rpx;
+		margin-bottom: 80rpx;
+		box-shadow: rgba(0, 0, 0, 0.03) 1px 2px 10px 5px;
+		border-radius: 40rpx;
+		background: #fff;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.boxWrap>view:nth-child(1){height: 90rpx; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center;}
+.consultText {
+		margin-top: 24rpx;
+		font-size: 32rpx;
+}
+
