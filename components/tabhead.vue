@@ -1,5 +1,6 @@
 <template>
 	<view class="headerTitle" :style="{top:tabHeight+'px',lineHeight:lineHight+'px',color:color}">
+		<!-- 图标 -->
 	<!-- 	<text class="iconfont icon-fanhui" style="font-size: 14px; margin-right: 8rpx;" @click="prevStep"></text> -->
 		 {{title}}</view>
 </template>
